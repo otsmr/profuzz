@@ -12,7 +12,7 @@ homepage = "https://tsmr.eu/generic-protocol-fuzzer.html"
 [dependencies]
 hex = "0.4.3"
 pnet = "0.35.0"
-profuzz_core = { path = "../profuzz_core/" }
+profuzz_core = { version = "0.1.0", path = "../profuzz_core/" }
 tokio = { version = "1.44.2", features = ["full"] }
 tracing = "0.1.41"
 pnet_layers = "0.1.0"
