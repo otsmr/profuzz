@@ -5,7 +5,7 @@
 Currently there are the following common implementations:
 
 - `Healthcheck`
-    - `TcpHealthcheck`: This can be used when the target has listening TCP port.
+    - `TcpHealthcheck`: This can be used when the target has listening TCP port. The health check uses the [pcat](https://crates.io/crates/pcap) crate to listen for the response, which requires having `libpcap-dev` installed on your system. 
     - `DummyHealthcheck`: Always returns true.
 - `Mutable`
     - `EtherMutatorOwned`: Implements the mutation for various network packets.
