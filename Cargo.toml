@@ -1,0 +1,9 @@
+[workspace]
+resolver = "3"
+members = [
+    "profuzz_common",
+    "profuzz_core",
+    "example/profuzz_network_stack",
+    "example/profuzz_tplink_tmdp",
+    "example/target_tcp_server",
+]
