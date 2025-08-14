@@ -3,6 +3,7 @@ name = "profuzz_common"
 version = "0.1.0"
 edition = "2024"
 readme = "./README.md"
+categories = ["network-programming"]
 authors = ["Tobias Müller <git@tsmr.eu>"]
 description = "profuzz_common is a collection of ready to use implementations for the different traits to be implemented to run profuzz_core."
 repository = "https://github.com/otsmr/profuzz"

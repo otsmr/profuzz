@@ -2,7 +2,7 @@
 name = "profuzz_core"
 version = "0.1.0"
 edition = "2024"
-categories = ["network", "fuzzer"]
+categories = ["network-programming"]
 license = "Apache-2.0"
 readme = "../README.md"
 authors = ["Tobias Müller <git@tsmr.eu>"]
