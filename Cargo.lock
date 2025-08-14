@@ -1148,7 +1148,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "profuzz_pnet"
+name = "profuzz_network_stack"
 version = "0.1.0"
 dependencies = [
  "log",

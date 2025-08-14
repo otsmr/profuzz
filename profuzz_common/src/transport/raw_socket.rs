@@ -7,7 +7,7 @@ use profuzz_core::traits::Transport;
 
 /// Default transport layer for sending directly to an socket.
 /// ! This transport layer requires root permissions when executing!
-/// ! This transport DOES not read from the socket, so now feedback based fuzzing is possible
+/// ! This transport DOES not read from the socket, so no feedback based fuzzing is possible
 pub struct RawSocketTransport {
     iface: String,
     socket: Option<Box<dyn DataLinkSender>>,

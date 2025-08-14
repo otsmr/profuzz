@@ -59,7 +59,7 @@ where
     {
         let len = crashes.len();
         for (i, crash) in crashes.into_iter().enumerate() {
-            println!("Triage {i}/{len} [y/n]? ");
+            println!("Triage {}/{len} [y/n]? ", i + 1);
             let mut input = String::new();
 
             std::io::stdin()
